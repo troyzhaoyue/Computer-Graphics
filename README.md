@@ -6,7 +6,9 @@ Multi-object rendering. Mouth clicking to change the color/texture.
 
 Assignment.cpp
 Assignment.h
+
 ![](https://github.com/troyzhaoyue/Computer-Graphics/blob/master/cg1.png)
+
 ## Assignment2
 Object deforming and camera moving.
 
@@ -16,4 +18,5 @@ flag.vs
 flag.fs
 pole.vs
 pole.fs
+
 ![](https://github.com/troyzhaoyue/Computer-Graphics/blob/master/cg2.png)
