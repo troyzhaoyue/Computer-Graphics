@@ -4,8 +4,8 @@ Computer Graphics projects with OpenGL
 ## Assignment1
 Multi-object rendering. Mouth clicking to change the color/texture.
 
-Assignment.cpp
-Assignment.h
+Assignment1.cpp
+Assignment1.h
 
 ## Assignment2
 Object deforming and camera moving.
@@ -16,3 +16,12 @@ flag.vs
 flag.fs
 pole.vs
 pole.fs
+
+
+## Assignment3
+Texture and shading (Lighting model).
+
+Assignment3.cpp
+Assignment3.h
+shadingflag.vs/fs
+colorshader.vs/fs

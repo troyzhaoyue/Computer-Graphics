@@ -21,7 +21,8 @@ class Assignment2 : public Scene
 		glm::vec3 color;
 		glm::vec2 uv_cord;
 
-		Vertex(glm::vec3 pos, glm::vec3 col, glm::vec2 uv) {
+		Vertex(glm::vec3 pos, glm::vec3 col, glm::vec2 uv) 
+		{
 			position = pos;
 			color = col;
 			uv_cord = uv;

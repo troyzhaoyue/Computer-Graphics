@@ -12,18 +12,18 @@ void ExampleScene3::createIcosahedron(std::vector<Vertex> &icosahedron, std::vec
 	// vertices we want to to render from it
 	icosahedron.clear();
 
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(-0.26286500f, 0.0000000f, 0.42532500f)), glm::vec3(0.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(-0.26286500f, 0.0000000f, 0.42532500f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(-0.26286500f, 0.0000000f, 0.42532500f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(-0.26286500f, 0.0000000f, 0.42532500f))));
 	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.26286500f, 0.0000000f, 0.42532500f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(0.26286500f, 0.0000000f, 0.42532500f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(-0.26286500f, 0.0000000f, -0.42532500f)), glm::vec3(0.0f, 1.0f, 0.0f), glm::normalize(glm::vec3(-0.26286500f, 0.0000000f, -0.42532500f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.26286500f, 0.0000000f, -0.42532500f)), glm::vec3(0.0f, 0.0f, 1.0f), glm::normalize(glm::vec3(0.26286500f, 0.0000000f, -0.42532500f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.0000000f, 0.42532500f, 0.26286500f)), glm::vec3(1.0f, 1.0f, 0.0f), glm::normalize(glm::vec3(0.0000000f, 0.42532500f, 0.26286500f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.0000000f, 0.42532500f, -0.26286500f)), glm::vec3(1.0f, 0.0f, 1.0f), glm::normalize(glm::vec3(0.0000000f, 0.42532500f, -0.26286500f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.0000000f, -0.42532500f, 0.26286500f)), glm::vec3(0.0f, 1.0f, 1.0f), glm::normalize(glm::vec3(0.0000000f, -0.42532500f, 0.26286500f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.0000000f, -0.42532500f, -0.26286500f)), glm::vec3(1.0f, 1.0f, 1.0f), glm::normalize(glm::vec3(0.0000000f, -0.42532500f, -0.26286500f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.42532500f, 0.26286500f, 0.0000000f)), glm::vec3(1.0f, 0.5f, 0.0f), glm::normalize(glm::vec3(0.42532500f, 0.26286500f, 0.0000000f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(-0.42532500f, 0.26286500f, 0.0000000f)), glm::vec3(1.0f, 0.0f, 0.5f), glm::normalize(glm::vec3(-0.42532500f, 0.26286500f, 0.0000000f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.42532500f, -0.26286500f, 0.0000000f)), glm::vec3(0.5f, 1.0f, 0.0f), glm::normalize(glm::vec3(0.42532500f, -0.26286500f, 0.0000000f))));
-	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(-0.42532500f, -0.26286500f, 0.0000000f)), glm::vec3(0.5f, 0.0f, 1.0f), glm::normalize(glm::vec3(-0.42532500f, -0.26286500f, 0.0000000f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(-0.26286500f, 0.0000000f, -0.42532500f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(-0.26286500f, 0.0000000f, -0.42532500f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.26286500f, 0.0000000f, -0.42532500f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(0.26286500f, 0.0000000f, -0.42532500f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.0000000f, 0.42532500f, 0.26286500f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(0.0000000f, 0.42532500f, 0.26286500f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.0000000f, 0.42532500f, -0.26286500f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(0.0000000f, 0.42532500f, -0.26286500f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.0000000f, -0.42532500f, 0.26286500f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(0.0000000f, -0.42532500f, 0.26286500f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.0000000f, -0.42532500f, -0.26286500f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(0.0000000f, -0.42532500f, -0.26286500f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.42532500f, 0.26286500f, 0.0000000f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(0.42532500f, 0.26286500f, 0.0000000f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(-0.42532500f, 0.26286500f, 0.0000000f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(-0.42532500f, 0.26286500f, 0.0000000f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(0.42532500f, -0.26286500f, 0.0000000f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(0.42532500f, -0.26286500f, 0.0000000f))));
+	icosahedron.push_back(Vertex(glm::normalize(glm::vec3(-0.42532500f, -0.26286500f, 0.0000000f)), glm::vec3(1.0f, 0.0f, 0.0f), glm::normalize(glm::vec3(-0.42532500f, -0.26286500f, 0.0000000f))));
 
 	// Create indices
 	icosahedronIndices.push_back(0); icosahedronIndices.push_back(6);  icosahedronIndices.push_back(1);
@@ -154,7 +154,7 @@ void ExampleScene3::updateShading(std::vector<Vertex> &mesh, const glm::mat4 &mo
 	glm::vec4 materialDiffuse(1.0, 0.8, 0.0, 1.0);
 	glm::vec4 materialSpecular(1.0, 0.8, 0.0, 1.0);
 	glm::float32 materialShininess = 100.0f;
-	glm::vec4 materialEmission(0.0, 0.3, 0.3, 1.0);
+	glm::vec4 materialEmission(1.0, 0.0, 0.0, 1.0);
 
 	// Effect of both light and material properties is multiplication
 	glm::vec4 ambientProduct = glm::matrixCompMult(lightAmbient, materialAmbient);
@@ -190,7 +190,7 @@ void ExampleScene3::updateShading(std::vector<Vertex> &mesh, const glm::mat4 &mo
 		glm::float32 lightAttenuation = 1.0f / ((attenuationQuadratic * lightDistance + attenuationLinear) * lightDistance + attenuationConstant);
 
 		// Combine all the components to final colors
-		mesh[v].color = (glm::vec3(diffuse) + glm::vec3(specular) + glm::vec3(ambientProduct)) * lightAttenuation + glm::vec3(materialEmission);
+		mesh[v].color = (glm::vec3(diffuse) + glm::vec3(specular) + glm::vec3(ambientProduct)) * lightAttenuation+ glm::vec3(materialEmission);
 	}
 }
 
@@ -252,7 +252,7 @@ bool ExampleScene3::init()
 	glUseProgram(shaderProgram.getShaderProgram());
 
 	//Initialize clear color for glClear()
-	glClearColor(0.2f, 0.3f, 0.1f, 1.f);
+	glClearColor(0.0f, 0.0f, 0.0f, 1.f);
 
 	glEnable(GL_DEPTH_TEST);
 	glEnable(GL_CULL_FACE);
@@ -328,7 +328,7 @@ void ExampleScene3::resize(GLsizei width, GLsizei height)
 void ExampleScene3::update(float timestep)
 {
 	// Rotate object
-//	rotation += glm::two_pi<float>() * 0.1f * timestep;
+	rotation += glm::two_pi<float>() * 0.1f * timestep;
 }
 
 // Render view
@@ -341,8 +341,8 @@ void ExampleScene3::render()
 	modelMat = glm::rotate(glm::mat4(), rotation, glm::vec3(0.0, 1.0, 0.0)); // Rotate object around y-axis
 
 	// Update our model's shading with new orientation with the camera
-//	glm::vec4 lightPos(2.0f, 2.0f, 1.0f, 1.0f);
-//	updateShading(sphere, modelMat, lightPos);
+	glm::vec4 lightPos(2.0f, 2.0f, 1.0f, 1.0f);
+	updateShading(sphere, modelMat, lightPos);
 
 	// Precalculate transformation matrix for the shader and use it
 	mvpMat = projectionMat * viewMat * modelMat;

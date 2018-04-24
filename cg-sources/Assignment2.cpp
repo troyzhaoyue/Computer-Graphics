@@ -241,9 +241,9 @@ void Assignment2::render_flag()
 	glBindBuffer(GL_ARRAY_BUFFER, vbo_flag);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo_flag);
 
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(GLfloat), (void*)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 2 * sizeof(glm::vec3) + sizeof(glm::vec2), (void*)0);
 	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(GLfloat), (void*)(6 * sizeof(GLfloat)));
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 2 * sizeof(glm::vec3) + sizeof(glm::vec2), (void*)(2 * sizeof(glm::vec3)));
 	glEnableVertexAttribArray(1);
 
 	glUniform1f(glGetUniformLocation(flag_shader_ID, "gtime"), gtime);
@@ -261,9 +261,9 @@ void Assignment2::render_pole()
 	glBindBuffer(GL_ARRAY_BUFFER, vbo_pole);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo_pole);
 
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(GLfloat), (void*)0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 2 * sizeof(glm::vec3) + sizeof(glm::vec2), (void*)0);
 	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(GLfloat), (void*)(3 * sizeof(GLfloat)));
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 2 * sizeof(glm::vec3) + sizeof(glm::vec2), (void*)(1 * sizeof(glm::vec3)));
 	glEnableVertexAttribArray(1);
 
 	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(poleIndices.size()), GL_UNSIGNED_INT, 0);

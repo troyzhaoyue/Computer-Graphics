@@ -10,8 +10,9 @@
 #include "examplescene4.h"
 #include "objparser.h"
 
-#include "Assignment.h"
+#include "Assignment1.h"
 #include "Assignment2.h"
+#include "Assignment3.h"
 
 /**
 * \brief Dump loaded object information to show how it can be accessed using ObjParser class
@@ -192,8 +193,9 @@ int main(int argc, char **argv)
 	//	ExampleScene3 scene; // A shaded sphere (shading calculated to vertex colors)
 	//	ExampleScene4 scene; // Gouraud-shaded sphere (shading calculated in vertex shader)
 
-	//	Assignment scene;
-		Assignment2 scene;
+	//	Assignment1 scene;
+	//	Assignment2 scene;
+		Assignment3 scene;
 
 	// Test object loading
 	{

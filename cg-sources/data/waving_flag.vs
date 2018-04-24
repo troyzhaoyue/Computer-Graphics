@@ -1,13 +1,13 @@
 #version 330 core
 layout(location = 0) in vec3 in_Position;
-layout(location = 1) in vec2 in_TexCoord0;
+layout(location = 2) in vec2 in_TexCoord0;
 
 // mvpmatrix is the result of multiplying the model, view, and projection matrices
 uniform float gtime;
 uniform mat4 mvpmatrix;
 
 out vec2 f_TexCoord0;
-
+out vec3 ex_Color;      //result of shading
 void main()
 {
     
