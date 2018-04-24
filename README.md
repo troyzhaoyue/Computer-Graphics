@@ -16,12 +16,3 @@ flag.vs
 flag.fs
 pole.vs
 pole.fs
-
-
-## Assignment3
-Texture and shading (Lighting model).
-
-Assignment3.cpp
-Assignment3.h
-shadingflag.vs/fs
-colorshader.vs/fs
